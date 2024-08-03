@@ -2,7 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #00030c;  
+    --cor-de-fundo: #000000;  
 }
 
 body{
@@ -14,6 +14,8 @@ body{
     margin: 0;
     padding: 0;
 }
-.principal {beckgroud- image: url("backgroud.png");
-
+.principal {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
