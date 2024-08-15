@@ -1,20 +1,22 @@
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #000000;  
+    --botao-azul: #0073ff;
+    --cor-de-fundo: #000000;
+    --fonte-principal:'Inter';
 }
 
 body{
     background-color:  var(--cor-de-fundo);
     color: var(--branco-principal);
+    family-font: var(--fonte-principal);
 }
 
 *{
     margin: 0;
     padding: 0;
 }
-.principal {
+.principal{
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
