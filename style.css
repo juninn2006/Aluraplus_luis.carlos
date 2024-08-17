@@ -9,7 +9,7 @@
 body{
     background-color:  var(--cor-de-fundo);
     color: var(--branco-principal);
-    family-font: var(--fonte-principal);
+    font-family: var(--fonte-principal);
 }
 
 *{
@@ -20,4 +20,8 @@ body{
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+.container{
+    height: 100vh;
+    dispplay: grid;
 }
